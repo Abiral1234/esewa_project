@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>add_to_app_ios.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>buildNumber</key>
+			<string>1</string>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>754A05FBD997C0C8AE354F6D16E21EACEACBAB82</string>
+				<key>dateExpires</key>
+				<string>06/06/2026</string>
+				<key>type</key>
+				<string>Apple Development</string>
+			</dict>
+			<key>embeddedBinaries</key>
+			<array>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>buildNumber</key>
+					<string>1.0</string>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>754A05FBD997C0C8AE354F6D16E21EACEACBAB82</string>
+						<key>dateExpires</key>
+						<string>06/06/2026</string>
+						<key>type</key>
+						<string>Apple Development</string>
+					</dict>
+					<key>name</key>
+					<string>App.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>7U5YQ8C3UM</string>
+						<key>name</key>
+						<string>Abiral Pokhrel</string>
+					</dict>
+					<key>versionNumber</key>
+					<string>1.0</string>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>buildNumber</key>
+					<string>1.0</string>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>754A05FBD997C0C8AE354F6D16E21EACEACBAB82</string>
+						<key>dateExpires</key>
+						<string>06/06/2026</string>
+						<key>type</key>
+						<string>Apple Development</string>
+					</dict>
+					<key>name</key>
+					<string>Flutter.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>7U5YQ8C3UM</string>
+						<key>name</key>
+						<string>Abiral Pokhrel</string>
+					</dict>
+					<key>versionNumber</key>
+					<string>1.0</string>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>buildNumber</key>
+					<string>1</string>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>754A05FBD997C0C8AE354F6D16E21EACEACBAB82</string>
+						<key>dateExpires</key>
+						<string>06/06/2026</string>
+						<key>type</key>
+						<string>Apple Development</string>
+					</dict>
+					<key>name</key>
+					<string>shared_preferences_foundation.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>7U5YQ8C3UM</string>
+						<key>name</key>
+						<string>Abiral Pokhrel</string>
+					</dict>
+					<key>versionNumber</key>
+					<string>0.0.1</string>
+				</dict>
+			</array>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>7U5YQ8C3UM.com.example.addtoapp</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>7U5YQ8C3UM</string>
+				<key>get-task-allow</key>
+				<true/>
+			</dict>
+			<key>name</key>
+			<string>add_to_app_ios.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>bf1f770a-2585-437f-a030-ec16060f81f5</string>
+				<key>dateExpires</key>
+				<string>29/11/2025</string>
+				<key>name</key>
+				<string>iOS Team Provisioning Profile: com.example.addtoapp</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>7U5YQ8C3UM</string>
+				<key>name</key>
+				<string>Abiral Pokhrel</string>
+			</dict>
+			<key>versionNumber</key>
+			<string>1.0</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -106,6 +106,7 @@
 				BE8D3F102C3A8C7500E9BDFA /* Frameworks */,
 				BE8D3F112C3A8C7500E9BDFA /* Resources */,
 				EA0E34D84467E0C2878A62AF /* [CP-User] Embed Flutter Build flutter_module Script */,
+				800A43B99DE399B87EBD4410 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -172,6 +173,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "set -e\nset -u\nsource \"${SRCROOT}/../flutter_module/.ios/Flutter/flutter_export_environment.sh\"\nexport VERBOSE_SCRIPT_LOGGING=1 && \"$FLUTTER_ROOT\"/packages/flutter_tools/bin/xcode_backend.sh build";
+		};
+		800A43B99DE399B87EBD4410 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-add_to_app_ios/Pods-add_to_app_ios-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-add_to_app_ios/Pods-add_to_app_ios-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-add_to_app_ios/Pods-add_to_app_ios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 		9B1C452B93AB7FC81B9FEAAA /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;

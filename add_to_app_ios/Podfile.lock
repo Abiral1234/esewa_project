@@ -2,20 +2,28 @@ PODS:
   - Flutter (1.0.0)
   - FlutterPluginRegistrant (0.0.1):
     - Flutter
+    - shared_preferences_foundation
+  - shared_preferences_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
 
 DEPENDENCIES:
   - Flutter (from `../flutter_module/.ios/Flutter`)
   - FlutterPluginRegistrant (from `../flutter_module/.ios/Flutter/FlutterPluginRegistrant`)
+  - shared_preferences_foundation (from `../flutter_module/.ios/.symlinks/plugins/shared_preferences_foundation/darwin`)
 
 EXTERNAL SOURCES:
   Flutter:
     :path: "../flutter_module/.ios/Flutter"
   FlutterPluginRegistrant:
     :path: "../flutter_module/.ios/Flutter/FlutterPluginRegistrant"
+  shared_preferences_foundation:
+    :path: "../flutter_module/.ios/.symlinks/plugins/shared_preferences_foundation/darwin"
 
 SPEC CHECKSUMS:
   Flutter: cabc95a1d2626b1b06e7179b784ebcf0c0cde467
-  FlutterPluginRegistrant: 33eb8033675f887eba735b6409cd8503f377aa87
+  FlutterPluginRegistrant: 10652802ba56261e4e088dd8f88965ba97a9f609
+  shared_preferences_foundation: 5086985c1d43c5ba4d5e69a4e8083a389e2909e6
 
 PODFILE CHECKSUM: 1e59d61053c35037609085386774c66e836a0574
 
