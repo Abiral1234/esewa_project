@@ -1,7 +1,8 @@
 # iOS
-ios/build/
+build/
 *.xcarchive
 *.ipa
+*.dSYM
 
 # Android
 android/app/build/
