@@ -1,0 +1,8 @@
+# iOS
+ios/build/
+*.xcarchive
+*.ipa
+
+# Android
+android/app/build/
+*.apk
