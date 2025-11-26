@@ -1,24 +1,26 @@
 pluginManagement {
     repositories {
-        google {
-            content {
-                includeGroupByRegex("com\\.android.*")
-                includeGroupByRegex("com\\.google.*")
-                includeGroupByRegex("androidx.*")
-            }
-        }
-        mavenCentral()
-        gradlePluginPortal()
+    maven {
+        url "/Users/abiral/Desktop/Projects/esewa_project/flutter_module/build/host/outputs/repo"
     }
+    google()
+    mavenCentral()
+    maven {
+        url "https://storage.googleapis.com/download.flutter.io"
+    }
+}
+
 }
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS)
     repositories {
         google()
         mavenCentral()
-        maven{
-            allowInsecureProtocol true
-            url "http://download.flutter.io/"
+        maven {
+            url "/Users/abiral/Desktop/Projects/esewa_project/flutter_module/build/host/outputs/repo"
+        }
+        maven {
+            url "https://storage.googleapis.com/download.flutter.io"
         }
     }
 }
